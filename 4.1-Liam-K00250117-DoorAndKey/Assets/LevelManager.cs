@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     public GameObject keyObject;
     public GameObject doorSwitch;
 
-    public bool keyControl = false;
+    private bool keyControl = false;
 
     private bool doorOpen = false;
 
@@ -27,7 +27,7 @@ public class LevelManager : MonoBehaviour
 
             doorOpenner.DoorOpen();
 
-            Open
+           // Open
 
 
 
